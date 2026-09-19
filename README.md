@@ -27,6 +27,17 @@ Counterfeit op-amps are very common nowadays especially buying from grey markets
 ## Measure slew rate 
 
 # BOM (Bill of materials) 
+| Item # | Description               | Values | Quantity | Alternative / Notes                                                      | 
+|  :---: | :---:                     | :---:  | :---:    | :---:                                                                    |
+| 1      | Resistor                  | 10     | 3        |                                                                          |
+| 2      | Resistor                  | 10k    | 2        |                                                                          | 
+| 3      | Load Resistor             | 1k     | 1        | Other values can be chosen according to your test condition              |      
+| 4      | Ceramic Capacitor         | 100n   | 2        |                                                                          |
+| 5      | ZIF 16Pin Socket          |        | 1        | 1x 16 pin socket / 2x 8 pin socket / DIY socket from Female machine pin  |
+| 6      | Male pin header           |        | 15POS    | Some header can be replaced by breakout wires                            |
+| 7      | Female machine pin header |        | 12POS    | Can be omitted according to your needs                                   | 
+| 8      | Solid core wire (Jumper)  |        |          |                                                                          | 
+| Extra  | Feedback Resistors        |        | 2        | Values according to required gain                                        | 
 
 # How to build 
 
